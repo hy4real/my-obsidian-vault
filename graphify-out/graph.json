@@ -1,0 +1,103 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Activate.ps1",
+      "file_type": "code",
+      "source_file": "obsidian-venv/bin/Activate.ps1",
+      "source_location": "L1",
+      "id": "obsidian_venv_bin_activate_ps1",
+      "community": 0,
+      "norm_label": "activate.ps1"
+    },
+    {
+      "label": "global:deactivate()",
+      "file_type": "code",
+      "source_file": "obsidian-venv/bin/Activate.ps1",
+      "source_location": "L73",
+      "id": "activate_global_deactivate",
+      "community": 0,
+      "norm_label": "global:deactivate()"
+    },
+    {
+      "label": "Get-PyVenvConfig()",
+      "file_type": "code",
+      "source_file": "obsidian-venv/bin/Activate.ps1",
+      "source_location": "L131",
+      "id": "activate_get_pyvenvconfig",
+      "community": 0,
+      "norm_label": "get-pyvenvconfig()"
+    },
+    {
+      "label": "global:_OLD_VIRTUAL_PROMPT()",
+      "file_type": "code",
+      "source_file": "obsidian-venv/bin/Activate.ps1",
+      "source_location": "L230",
+      "id": "activate_global_old_virtual_prompt",
+      "community": 0,
+      "norm_label": "global:_old_virtual_prompt()"
+    },
+    {
+      "label": "global:prompt()",
+      "file_type": "code",
+      "source_file": "obsidian-venv/bin/Activate.ps1",
+      "source_location": "L234",
+      "id": "activate_global_prompt",
+      "community": 0,
+      "norm_label": "global:prompt()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "obsidian-venv/bin/Activate.ps1",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_src": "obsidian_venv_bin_activate_ps1",
+      "_tgt": "activate_global_deactivate",
+      "source": "obsidian_venv_bin_activate_ps1",
+      "target": "activate_global_deactivate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "obsidian-venv/bin/Activate.ps1",
+      "source_location": "L131",
+      "weight": 1.0,
+      "_src": "obsidian_venv_bin_activate_ps1",
+      "_tgt": "activate_get_pyvenvconfig",
+      "source": "obsidian_venv_bin_activate_ps1",
+      "target": "activate_get_pyvenvconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "obsidian-venv/bin/Activate.ps1",
+      "source_location": "L230",
+      "weight": 1.0,
+      "_src": "obsidian_venv_bin_activate_ps1",
+      "_tgt": "activate_global_old_virtual_prompt",
+      "source": "obsidian_venv_bin_activate_ps1",
+      "target": "activate_global_old_virtual_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "obsidian-venv/bin/Activate.ps1",
+      "source_location": "L234",
+      "weight": 1.0,
+      "_src": "obsidian_venv_bin_activate_ps1",
+      "_tgt": "activate_global_prompt",
+      "source": "obsidian_venv_bin_activate_ps1",
+      "target": "activate_global_prompt",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
