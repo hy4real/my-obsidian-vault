@@ -251,8 +251,8 @@ body.claude-sans-reading {
   --callout-tldr: var(--claude-callout-summary-rgb);
   --callout-quote: var(--claude-callout-quote-rgb);
   --callout-cite: var(--claude-callout-quote-rgb);
-  --claude-font-weight: 400;
-  --claude-font-strong: 700;
+  --claude-font-weight: 360;
+  --claude-font-strong: 530;
 }
 
 .theme-dark {
@@ -444,7 +444,7 @@ body {
   --h6-color: var(--claude-text-muted);
   --heading-spacing: 0.75rem;
   --p-spacing: var(--claude-paragraph-spacing);
-  --blockquote-border-thickness: 4px;
+  --blockquote-border-thickness: 3px;
   --blockquote-border-color: var(--claude-quote-border);
   --blockquote-color: var(--claude-text-muted);
   --blockquote-background-color: transparent;
@@ -872,7 +872,7 @@ strong,
 
 .theme-dark strong,
 .theme-dark .cm-strong {
-  color: var(--claude-accent-hover);
+  font-weight: var(--claude-font-strong);
 }
 
 mark,
@@ -1045,7 +1045,7 @@ input[type="checkbox"],
 .markdown-source-view.mod-cm6 .HyperMD-quote {
   color: var(--claude-text-muted);
   background-color: transparent;
-  border-left: 4px solid var(--claude-quote-border);
+  border-left: 3px solid var(--claude-quote-border);
 }
 
 .markdown-rendered blockquote {
